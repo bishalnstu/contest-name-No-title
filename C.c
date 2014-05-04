@@ -12,8 +12,10 @@ int main()
   
   gets(s);
  strlwr(s);
-  for(i = 0; s[i] != '\0'; i++) {
-    if(check_vowel(s[i]) == 0) {       
+  for(i = 0; s[i] != '\0'; i++)
+   {
+    if(check_vowel(s[i]) == 0)
+	 {       
       t[j] = s[i];
       j++;
     }

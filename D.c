@@ -8,7 +8,8 @@ int main()
     int k,cnt[100]= {0};
     char s[10000];
     scanf("%d%s",&k,s);
-    for (i=0; s[i]; ++i) ++cnt[s[i]-'a'];
+    for (i=0; s[i]; ++i)
+	 ++cnt[s[i]-'a'];
     for (i=0; i<26; ++i)
         if (cnt[i]%k)
         {
